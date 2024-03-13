@@ -37,7 +37,7 @@ import java.util.concurrent.TimeUnit;
  * {@link ConnectionParams.Builder#setAuthTokenLifetime(long, TimeUnit)}.
  */
 public class ConnectionParams {
-    private static final String DEFAULT_BRIDGE_HOSTNAME = "mqtt.googleapis.com";
+    private static final String DEFAULT_BRIDGE_HOSTNAME = "asia-east1-mqtt.clearblade.com";
     private static final int DEFAULT_BRIDGE_PORT = 8883;
     private static final int MAX_TCP_PORT = 65535;
     private static final long DEFAULT_AUTH_TOKEN_LIFETIME_MILLIS = Duration.ofHours(1).toMillis();
